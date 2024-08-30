@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+body{
+    background-color: black;
+}
+p{
+    color: black;
+}
+.form{
+    width: 30rem;
+    position: absolute;
+    left: 34%;
+    top: 15%;
+}
+.form .header{
+    display: flex;
+    background-color: white;
+    padding: .5rem;
+    margin-bottom: .5rem;
+    border-radius: .5rem;
+}
+.form .header .Q-num{
+    color: red;
+}
+.form .body{
+    background-color: white;
+    color: black;
+    padding: 2rem .5rem;
+    border-radius: .5rem;
+}
+.form .body #title{
+    color: #0c0cb5;
+    border-bottom: 1px solid black;
+    padding-bottom: .2rem;
+    margin-bottom: 1rem;
+}
+.form .body input{
+    width: 28rem;
+    height: 2rem;
+    border: none;
+    padding-left: 1rem;
+    border-radius: .2rem;
+    margin-bottom: .5rem;
+    background-color: #b7b7b7;
+    color: white;
+}
+.form .body button{
+    padding: .5rem 1rem;
+    background-color: #00996c;
+    color: white;
+    border-radius: .5rem;
+    border: none;
+    cursor: pointer;
+}
+.form .body button:hover{
+    background-color: #05684a;
+}
+.form .body #hent{
+    color: #00996c;
+    padding: 2rem 0rem .5rem 0rem;
+    margin-bottom: .5rem;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+.form .body #res{
+    color: red;
+    text-align: center;
+}
+#next{
+    display: none;
+}
